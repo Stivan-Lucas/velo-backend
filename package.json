@@ -20,9 +20,7 @@
 		"prepare": "husky"
 	},
 	"lint-staged": {
-		"*.{ts,js,json}": [
-			"biome check --write"
-		]
+		"*.{ts,js,json,md}": "biome check --write"
 	},
 	"dependencies": {
 		"@prisma/client": "^7.3.0",
